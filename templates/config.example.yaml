@@ -1,0 +1,13 @@
+# Copy this file to config.yaml in a project directory before using
+# templates/Snakefile.gwas.
+
+pfile: "data_raw/study"
+pheno: "data_raw/phenotypes.tsv"
+pheno_name: "trait_value"
+pc_covars: "PC1-PC10"
+
+# Example teaching thresholds. Adjust to the cohort, platform, and trait.
+mind: 0.02
+geno: 0.02
+maf: 0.01
+

@@ -1,0 +1,41 @@
+---
+title: "Excellent GWAS Tutorial"
+---
+
+This book teaches genome-wide association studies from first principles through practical analysis, interpretation, and reporting.
+
+It combines a beginner-friendly plant and crop GWAS foundation with current human and biomedical GWAS practice. The goal is not only to show learners how to run commands, but to help them understand why each design, QC, modeling, and interpretation decision matters.
+
+## What Learners Will Be Able To Do
+
+By the end of the book, learners should be able to:
+
+- Explain what GWAS can and cannot infer.
+- Describe SNPs, linkage disequilibrium, minor allele frequency, population structure, relatedness, imputation, and association testing.
+- Build a defensible quality-control plan for samples, variants, and phenotypes.
+- Choose an association model for binary, quantitative, related, structured, or large-biobank data.
+- Interpret Manhattan plots, QQ plots, genomic inflation, effect estimates, confidence intervals, and regional association plots.
+- Move from significant loci to biological hypotheses using annotation, LD, credible sets, public databases, functional resources, and replication.
+- Understand differences between human/biomedical GWAS and plant/crop GWAS.
+- Report a GWAS transparently using reproducible workflows and reporting checklists.
+
+## How To Use This Book
+
+For a short seminar, start with the core tutorial, QC checklist, and the first association labs.
+
+For a full workshop, follow the five-day course outline and use the report template as a capstone assignment.
+
+For plant-breeding audiences, emphasize field design, population panels, landraces, breeding lines, kinship, environmental effects, genotype-by-environment interaction, and candidate-gene validation.
+
+For human and biomedical audiences, emphasize case-control design, ancestry, relatedness, imputation reference panels, mixed models, biobank-scale methods, GWAS Catalog lookup, fine mapping, colocalization, and polygenic scores.
+
+## Source Foundation
+
+This course package was developed from:
+
+- The local paper `01_Decoding_Basic_GWAS.pdf`, which provides a beginner-friendly plant and crop GWAS overview.
+- The Physalia GWAS course outline, which gives a strong multi-day teaching progression.
+- High-quality public resources from PLINK, GWAS Catalog, PGS Catalog, GWASTutorial, Hail, Beagle, Snakemake, LDSC, REGENIE, GEMMA, TASSEL, and reporting-methods literature.
+
+The material is original synthesis. Sources are mapped in the final chapter.
+

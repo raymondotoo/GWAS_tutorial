@@ -1,0 +1,6 @@
+_book/
+/.quarto/
+/.snakemake/
+*.log
+.DS_Store
+

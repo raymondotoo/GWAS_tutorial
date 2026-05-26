@@ -1,0 +1,41 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Excellent GWAS Tutorial"
+  subtitle: "From raw genotypes to defensible biological interpretation"
+  author: "Raymond Otoo"
+  repo-url: "https://github.com/raymondotoo/GWAS_tutorial"
+  repo-actions: [edit, issue]
+  page-footer:
+    left: "Excellent GWAS Tutorial"
+    right: "Built with Quarto"
+  chapters:
+    - index.qmd
+    - docs/course_outline.md
+    - docs/core_tutorial.md
+    - labs/hands_on_labs.md
+    - docs/qc_and_analysis_checklists.md
+    - docs/glossary.md
+    - docs/facilitator_guide.md
+    - docs/slide_deck_outline.md
+    - docs/assessment_bank.md
+    - docs/source_map.md
+    - templates/gwas_project_report.md
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-copy: true
+    code-overflow: wrap
+    callout-appearance: simple
+
+execute:
+  freeze: auto
+

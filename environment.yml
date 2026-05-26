@@ -1,0 +1,24 @@
+name: gwas-tutorial
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - plink2
+  - plink
+  - bcftools
+  - htslib
+  - vcftools
+  - snakemake-minimal
+  - python>=3.10
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - r-base
+  - r-data.table
+  - r-ggplot2
+  - r-qqman
+  - r-optparse
+

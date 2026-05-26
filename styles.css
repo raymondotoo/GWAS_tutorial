@@ -1,0 +1,21 @@
+/*-- scss:defaults --*/
+
+/*-- scss:rules --*/
+
+.sidebar-title {
+  font-weight: 700;
+}
+
+.cell-output {
+  border-left: 3px solid #d9e2ec;
+  padding-left: 0.75rem;
+}
+
+code {
+  white-space: pre-wrap;
+}
+
+.quarto-title-block .subtitle {
+  color: #52616b;
+}
+
