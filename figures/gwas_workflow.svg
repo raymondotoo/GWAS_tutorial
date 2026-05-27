@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1010" height="260" viewBox="0 0 1010 260" role="img">
+  <style>
+    .title { font: 700 22px Arial, sans-serif; fill: #1f2933; }
+    .label { font: 600 14px Arial, sans-serif; fill: #1f2933; }
+    .small { font: 12px Arial, sans-serif; fill: #52616b; }
+    .axis { stroke: #1f2933; stroke-width: 1.4; }
+    .grid { stroke: #d9e2ec; stroke-width: 1; }
+    .box { fill: white; stroke: #d9e2ec; stroke-width: 1.3; rx: 8; }
+    .arrow { stroke: #52616b; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" fill="#52616b"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="40.0" y="40.0" class="title" text-anchor="start">GWAS analysis workflow</text>
+<rect x="34.0" y="92.0" width="116.0" height="78.0" rx="8.0" fill="white" stroke="#2563eb" stroke-width="1.3"/>
+<circle cx="54" cy="113" r="11" fill="#2563eb" opacity="0.9"/>
+<text x="54.0" y="118.0" class="label" text-anchor="middle">1</text>
+<text x="92.0" y="130.0" class="label" text-anchor="middle">Question</text>
+<text x="92.0" y="151.0" class="small" text-anchor="middle">Trait, cohort, design</text>
+<line x1="155" y1="131.0" x2="165" y2="131.0" class="arrow"/>
+<rect x="170.0" y="92.0" width="116.0" height="78.0" rx="8.0" fill="white" stroke="#0f766e" stroke-width="1.3"/>
+<circle cx="190" cy="113" r="11" fill="#0f766e" opacity="0.9"/>
+<text x="190.0" y="118.0" class="label" text-anchor="middle">2</text>
+<text x="228.0" y="130.0" class="label" text-anchor="middle">Phenotype</text>
+<text x="228.0" y="151.0" class="small" text-anchor="middle">Measure and clean</text>
+<line x1="291" y1="131.0" x2="301" y2="131.0" class="arrow"/>
+<rect x="306.0" y="92.0" width="116.0" height="78.0" rx="8.0" fill="white" stroke="#16a34a" stroke-width="1.3"/>
+<circle cx="326" cy="113" r="11" fill="#16a34a" opacity="0.9"/>
+<text x="326.0" y="118.0" class="label" text-anchor="middle">3</text>
+<text x="364.0" y="130.0" class="label" text-anchor="middle">Genotype</text>
+<text x="364.0" y="151.0" class="small" text-anchor="middle">Array, WGS, GBS</text>
+<line x1="427" y1="131.0" x2="437" y2="131.0" class="arrow"/>
+<rect x="442.0" y="92.0" width="116.0" height="78.0" rx="8.0" fill="white" stroke="#d97706" stroke-width="1.3"/>
+<circle cx="462" cy="113" r="11" fill="#d97706" opacity="0.9"/>
+<text x="462.0" y="118.0" class="label" text-anchor="middle">4</text>
+<text x="500.0" y="130.0" class="label" text-anchor="middle">QC + PCA</text>
+<text x="500.0" y="151.0" class="small" text-anchor="middle">Samples, variants, PCs</text>
+<line x1="563" y1="131.0" x2="573" y2="131.0" class="arrow"/>
+<rect x="578.0" y="92.0" width="116.0" height="78.0" rx="8.0" fill="white" stroke="#7c3aed" stroke-width="1.3"/>
+<circle cx="598" cy="113" r="11" fill="#7c3aed" opacity="0.9"/>
+<text x="598.0" y="118.0" class="label" text-anchor="middle">5</text>
+<text x="636.0" y="130.0" class="label" text-anchor="middle">Model</text>
+<text x="636.0" y="151.0" class="small" text-anchor="middle">Regression or mixed model</text>
+<line x1="699" y1="131.0" x2="709" y2="131.0" class="arrow"/>
+<rect x="714.0" y="92.0" width="116.0" height="78.0" rx="8.0" fill="white" stroke="#dc2626" stroke-width="1.3"/>
+<circle cx="734" cy="113" r="11" fill="#dc2626" opacity="0.9"/>
+<text x="734.0" y="118.0" class="label" text-anchor="middle">6</text>
+<text x="772.0" y="130.0" class="label" text-anchor="middle">Plots</text>
+<text x="772.0" y="151.0" class="small" text-anchor="middle">Manhattan and QQ</text>
+<line x1="835" y1="131.0" x2="845" y2="131.0" class="arrow"/>
+<rect x="850.0" y="92.0" width="116.0" height="78.0" rx="8.0" fill="white" stroke="#64748b" stroke-width="1.3"/>
+<circle cx="870" cy="113" r="11" fill="#64748b" opacity="0.9"/>
+<text x="870.0" y="118.0" class="label" text-anchor="middle">7</text>
+<text x="908.0" y="130.0" class="label" text-anchor="middle">Biology</text>
+<text x="908.0" y="151.0" class="small" text-anchor="middle">LD, genes, validation</text>
+<text x="40.0" y="220.0" class="small" text-anchor="start">The central teaching point: each later result is only as credible as the earlier design and QC decisions.</text>
+</svg>

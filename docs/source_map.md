@@ -44,6 +44,25 @@ This file lists the materials pooled into the tutorial and how each one is used.
 - URL: https://cloufield.github.io/GWASTutorial/
 - Used for: practical workflow structure, GWAS file handling, QC, imputation, association analysis, and downstream interpretation.
 
+## Visual References
+
+### Wikimedia Commons Manhattan Plot
+
+- URL: https://commons.wikimedia.org/wiki/File:Manhattan_Plot.png
+- License: Creative Commons Attribution 2.5 Generic.
+- Used for: reference example of a Manhattan plot layout and open-license attribution pattern. The book uses an original synthetic Manhattan plot rather than copying this image.
+
+### FinnGen Handbook: QQ and Manhattan Plots
+
+- URL: https://docs.finngen.fi/faq/about-pheweb/what-are-qq-and-manhattan-plots
+- Used for: teaching framing around good versus problematic Manhattan plots, QQ-plot inflation/deflation, and interpretation of diagnostic plots.
+
+### GWASLab Manhattan, QQ, and Regional Plot Docs
+
+- Manhattan and QQ URL: https://cloufield.github.io/gwaslab/visualization_mqq/
+- Regional plot URL: https://cloufield.github.io/gwaslab/RegionalPlot/
+- Used for: reference examples of modern GWAS visualization types, including Manhattan, QQ, and regional locus plots.
+
 ## Software Documentation
 
 ### PLINK 2

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="270" viewBox="0 0 1020 270" role="img">
+  <style>
+    .title { font: 700 22px Arial, sans-serif; fill: #1f2933; }
+    .label { font: 600 14px Arial, sans-serif; fill: #1f2933; }
+    .small { font: 12px Arial, sans-serif; fill: #52616b; }
+    .axis { stroke: #1f2933; stroke-width: 1.4; }
+    .grid { stroke: #d9e2ec; stroke-width: 1; }
+    .box { fill: white; stroke: #d9e2ec; stroke-width: 1.3; rx: 8; }
+    .arrow { stroke: #52616b; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" fill="#52616b"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="34.0" y="40.0" class="title" text-anchor="start">Single-SNP association test</text>
+<rect x="36.0" y="70.0" width="300.0" height="170.0" rx="8.0" fill="white" stroke="#d9e2ec" stroke-width="1.3"/>
+<text x="60.0" y="100.0" class="label" text-anchor="start">DNA marker</text>
+<line x1="62.0" y1="136.0" x2="300.0" y2="136.0" class="grid"/>
+<circle cx="80.0" cy="136.0" r="17.0" fill="#2563eb" opacity="0.90" stroke="none"/>
+<text x="80.0" y="141.0" class="label" text-anchor="middle">A</text>
+<circle cx="118.0" cy="136.0" r="17.0" fill="#2563eb" opacity="0.90" stroke="none"/>
+<text x="118.0" y="141.0" class="label" text-anchor="middle">C</text>
+<circle cx="156.0" cy="136.0" r="17.0" fill="#2563eb" opacity="0.90" stroke="none"/>
+<text x="156.0" y="141.0" class="label" text-anchor="middle">G</text>
+<circle cx="194.0" cy="136.0" r="17.0" fill="#dc2626" opacity="0.90" stroke="none"/>
+<text x="194.0" y="141.0" class="label" text-anchor="middle">T</text>
+<circle cx="232.0" cy="136.0" r="17.0" fill="#2563eb" opacity="0.90" stroke="none"/>
+<text x="232.0" y="141.0" class="label" text-anchor="middle">A</text>
+<circle cx="270.0" cy="136.0" r="17.0" fill="#2563eb" opacity="0.90" stroke="none"/>
+<text x="270.0" y="141.0" class="label" text-anchor="middle">C</text>
+<text x="194.0" y="184.0" class="label" text-anchor="middle">Tested SNP</text>
+<text x="194.0" y="204.0" class="small" text-anchor="middle">Genotype coded 0, 1, 2 effect alleles</text>
+<rect x="380.0" y="70.0" width="390.0" height="170.0" rx="8.0" fill="white" stroke="#d9e2ec" stroke-width="1.3"/>
+<text x="405.0" y="100.0" class="label" text-anchor="start">Association model</text>
+<text x="405.0" y="128.0" class="small" text-anchor="start">phenotype = baseline + SNP effect + covariates + error</text>
+<text x="405.0" y="158.0" class="small" text-anchor="start">Continuous trait: linear regression</text>
+<text x="405.0" y="181.0" class="small" text-anchor="start">Binary trait: logistic regression</text>
+<text x="405.0" y="204.0" class="small" text-anchor="start">Related samples: mixed model</text>
+<line x1="820.0" y1="210.0" x2="820.0" y2="88.0" class="axis"/>
+<line x1="820.0" y1="210.0" x2="980.0" y2="210.0" class="axis"/>
+<text x="900.0" y="236.0" class="small" text-anchor="middle">0       1       2</text>
+<text x="802.0" y="112.0" class="small" text-anchor="middle">trait</text>
+<circle cx="834.3" cy="176.7" r="4.0" fill="#2563eb" opacity="0.72" stroke="none"/>
+<circle cx="845.8" cy="160.6" r="4.0" fill="#2563eb" opacity="0.72" stroke="none"/>
+<circle cx="838.6" cy="161.9" r="4.0" fill="#2563eb" opacity="0.72" stroke="none"/>
+<circle cx="843.9" cy="161.5" r="4.0" fill="#2563eb" opacity="0.72" stroke="none"/>
+<circle cx="841.8" cy="164.7" r="4.0" fill="#2563eb" opacity="0.72" stroke="none"/>
+<circle cx="853.6" cy="168.8" r="4.0" fill="#2563eb" opacity="0.72" stroke="none"/>
+<circle cx="842.4" cy="158.2" r="4.0" fill="#2563eb" opacity="0.72" stroke="none"/>
+<circle cx="843.1" cy="182.4" r="4.0" fill="#2563eb" opacity="0.72" stroke="none"/>
+<circle cx="855.6" cy="163.1" r="4.0" fill="#2563eb" opacity="0.72" stroke="none"/>
+<circle cx="833.4" cy="187.1" r="4.0" fill="#2563eb" opacity="0.72" stroke="none"/>
+<circle cx="851.7" cy="171.6" r="4.0" fill="#2563eb" opacity="0.72" stroke="none"/>
+<circle cx="838.5" cy="180.4" r="4.0" fill="#2563eb" opacity="0.72" stroke="none"/>
+<line x1="827.0" y1="172.0" x2="863.0" y2="172.0" class="axis"/>
+<circle cx="910.5" cy="136.3" r="4.0" fill="#0f766e" opacity="0.72" stroke="none"/>
+<circle cx="906.2" cy="150.1" r="4.0" fill="#0f766e" opacity="0.72" stroke="none"/>
+<circle cx="904.7" cy="152.0" r="4.0" fill="#0f766e" opacity="0.72" stroke="none"/>
+<circle cx="889.3" cy="143.2" r="4.0" fill="#0f766e" opacity="0.72" stroke="none"/>
+<circle cx="901.1" cy="146.0" r="4.0" fill="#0f766e" opacity="0.72" stroke="none"/>
+<circle cx="909.2" cy="151.8" r="4.0" fill="#0f766e" opacity="0.72" stroke="none"/>
+<circle cx="901.6" cy="143.6" r="4.0" fill="#0f766e" opacity="0.72" stroke="none"/>
+<circle cx="895.9" cy="140.0" r="4.0" fill="#0f766e" opacity="0.72" stroke="none"/>
+<circle cx="900.6" cy="135.7" r="4.0" fill="#0f766e" opacity="0.72" stroke="none"/>
+<circle cx="901.4" cy="144.4" r="4.0" fill="#0f766e" opacity="0.72" stroke="none"/>
+<circle cx="893.9" cy="132.9" r="4.0" fill="#0f766e" opacity="0.72" stroke="none"/>
+<circle cx="898.6" cy="140.1" r="4.0" fill="#0f766e" opacity="0.72" stroke="none"/>
+<line x1="882.0" y1="145.0" x2="918.0" y2="145.0" class="axis"/>
+<circle cx="959.0" cy="116.5" r="4.0" fill="#dc2626" opacity="0.72" stroke="none"/>
+<circle cx="957.8" cy="106.8" r="4.0" fill="#dc2626" opacity="0.72" stroke="none"/>
+<circle cx="963.0" cy="132.9" r="4.0" fill="#dc2626" opacity="0.72" stroke="none"/>
+<circle cx="943.2" cy="118.5" r="4.0" fill="#dc2626" opacity="0.72" stroke="none"/>
+<circle cx="958.4" cy="103.2" r="4.0" fill="#dc2626" opacity="0.72" stroke="none"/>
+<circle cx="946.6" cy="110.2" r="4.0" fill="#dc2626" opacity="0.72" stroke="none"/>
+<circle cx="962.2" cy="110.7" r="4.0" fill="#dc2626" opacity="0.72" stroke="none"/>
+<circle cx="962.4" cy="124.1" r="4.0" fill="#dc2626" opacity="0.72" stroke="none"/>
+<circle cx="957.8" cy="111.9" r="4.0" fill="#dc2626" opacity="0.72" stroke="none"/>
+<circle cx="955.7" cy="104.5" r="4.0" fill="#dc2626" opacity="0.72" stroke="none"/>
+<circle cx="959.5" cy="122.1" r="4.0" fill="#dc2626" opacity="0.72" stroke="none"/>
+<circle cx="947.4" cy="120.1" r="4.0" fill="#dc2626" opacity="0.72" stroke="none"/>
+<line x1="937.0" y1="118.0" x2="973.0" y2="118.0" class="axis"/>
+<text x="900.0" y="72.0" class="label" text-anchor="middle">Effect estimate</text>
+<path d="M845 172 L955 118" fill="none" stroke="#1f2933" stroke-width="2.4" opacity="1.00"/>
+</svg>

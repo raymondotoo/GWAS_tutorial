@@ -12,6 +12,8 @@ Excellent GWAS Tutorial: From Raw Genotypes to Defensible Biological Interpretat
 
 Which genomic variants are associated with variation in a trait?
 
+Use figure: GWAS analysis workflow.
+
 ### Slide 3: What GWAS Can Discover
 
 - Trait-associated loci.
@@ -33,6 +35,8 @@ Which genomic variants are associated with variation in a trait?
 
 Define SNP, genotype, effect allele, other allele, reference allele.
 
+Use figure: Single-SNP association model.
+
 ### Slide 6: MAF and Power
 
 Lower frequency means fewer carriers and less stable estimates.
@@ -41,9 +45,13 @@ Lower frequency means fewer carriers and less stable estimates.
 
 Variants travel together through inheritance; markers tag regions.
 
+Use figure: Linkage disequilibrium heatmap.
+
 ### Slide 8: Manhattan Plot
 
 Each point is a variant; peaks are loci to investigate.
+
+Use figure: Manhattan and QQ diagnostic plots.
 
 ### Slide 9: QQ Plot
 
@@ -117,6 +125,8 @@ Ancestry can confound genotype-trait association.
 
 Visualize structure and choose covariates.
 
+Use figure: PCA population structure plot.
+
 ### Slide 25: Kinship
 
 Related samples can inflate test statistics.
@@ -147,6 +157,8 @@ PLINK, GEMMA, REGENIE, SAIGE, BOLT-LMM, TASSEL.
 
 Genome-wide significance and FDR.
 
+Use figure: Multiple-testing schematic.
+
 ## Module 8: Interpreting Results
 
 ### Slide 32: Reading Manhattan Peaks
@@ -175,6 +187,8 @@ Increase coverage and harmonize across arrays.
 
 QC, harmonization, phasing, imputation, post-QC.
 
+Use figure: Genotype imputation flow.
+
 ### Slide 38: Meta-Analysis
 
 Combine cohorts after allele and phenotype harmonization.
@@ -188,6 +202,8 @@ Differences can be biological or technical.
 ### Slide 40: From Variant to Locus
 
 LD clumping and regional association.
+
+Use figure: Regional association plot.
 
 ### Slide 41: Functional Annotation
 
@@ -232,4 +248,3 @@ Study design, QC, model, build, software, plots, limitations.
 ### Slide 50: Final Mental Model
 
 Question -> phenotype -> genotype QC -> structure -> model -> plots -> locus -> replication -> report.
-

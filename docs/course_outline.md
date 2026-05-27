@@ -18,6 +18,7 @@ Learner tasks before the workshop:
 - Read a short GWAS overview.
 - Review genotype file formats: VCF, PLINK BED/BIM/FAM, PGEN/PVAR/PSAM.
 - Bring one trait example from their own field.
+- Skim the visual guide chapter so the main plots and schematics feel familiar before the labs.
 
 Instructor deliverables:
 
@@ -44,6 +45,11 @@ For binary traits:
 
 `Does genotype shift disease odds after accounting for covariates?`
 
+Visuals to use:
+
+- GWAS analysis workflow.
+- Single-SNP association model.
+
 ### Lecture 2: Genetic Variation and LD
 
 Topics:
@@ -53,6 +59,11 @@ Topics:
 - Tag SNPs and why genotyping arrays work.
 - Why LD patterns differ across populations and species.
 - Why a significant SNP points to a genomic region, not automatically a gene.
+
+Visuals to use:
+
+- Linkage disequilibrium heatmap.
+- Regional association plot.
 
 ### Lecture 3: Study Design
 
@@ -112,6 +123,10 @@ Topics:
 - Linear mixed models.
 - Structured crop panels and breeding lines.
 
+Visuals to use:
+
+- PCA population structure plot.
+
 ### Lab 2: Run QC and PCA
 
 Deliverables:
@@ -161,6 +176,11 @@ Topics:
 - Lambda GC and LDSC intercept.
 - When inflation is signal, confounding, or both.
 
+Visuals to use:
+
+- Manhattan and QQ diagnostic plot.
+- Multiple-testing schematic.
+
 ### Lab 3: Run Association and Make Plots
 
 Deliverables:
@@ -188,6 +208,10 @@ Topics:
 - Imputation quality metrics.
 - Allele harmonization.
 - Why imputation performance depends on ancestry and reference panels.
+
+Visuals to use:
+
+- Genotype imputation flow.
 
 ### Lecture 11: Meta-Analysis and Summary Statistics
 
@@ -275,4 +299,3 @@ Excellent submissions:
 - Separate marker association from causal inference.
 - Propose replication and validation.
 - Report software versions and reference builds.
-

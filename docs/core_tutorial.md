@@ -14,6 +14,8 @@ The genotype is commonly coded as 0, 1, or 2 copies of the effect allele. The es
 
 GWAS is powerful because it is agnostic: it does not require choosing candidate genes in advance. That same strength creates a central burden: a significant result must be interpreted through quality control, LD, ancestry, study design, replication, and biology.
 
+![GWAS analysis workflow. Original schematic showing question, phenotype, genotype, QC, model, diagnostic plots, and biological interpretation.](../figures/gwas_workflow.svg)
+
 ## 2. What GWAS Is Not
 
 GWAS does not directly prove causation. A significant SNP may be:
@@ -30,6 +32,8 @@ GWAS also does not fully explain complex traits. Common SNP GWAS usually capture
 ### SNP
 
 A single-nucleotide polymorphism is a genomic position where individuals differ by base. GWAS usually treats SNPs as markers that tag nearby haplotypes.
+
+![Single-SNP association model. Original schematic showing a DNA marker, genotype coding, regression model, and synthetic genotype-trait trend.](../figures/snp_association_model.svg)
 
 ### Allele
 
@@ -54,6 +58,8 @@ These boundaries are conventions, not laws.
 ### Linkage Disequilibrium
 
 Linkage disequilibrium, or LD, is non-random association between alleles at different loci. If two SNPs are in high LD, knowing one genotype gives information about the other.
+
+![Linkage disequilibrium heatmap. Original schematic showing darker cells for higher LD and block-like haplotype structure.](../figures/ld_heatmap.svg)
 
 LD matters because:
 
@@ -84,6 +90,8 @@ A Manhattan plot shows genomic position on the x-axis and `-log10(p-value)` on t
 ### QQ Plot
 
 A QQ plot compares observed p-values with expected p-values under the null. It helps detect inflation, deflation, technical artifacts, population structure, and strong polygenic signal.
+
+![Manhattan and QQ diagnostic plots. Original synthetic figure showing associated loci, genome-wide and suggestive thresholds, and a QQ tail lift.](../figures/manhattan_qq_diagnostics.svg)
 
 ## 4. Study Design Before Software
 
@@ -237,6 +245,8 @@ PCA is also a visual diagnostic:
 - Are cases and controls uneven across ancestry clusters?
 - Are study sites or batches aligned with PCs?
 
+![PCA population structure plot. Original synthetic figure showing clustered samples and the confounding risk when phenotype groups align with ancestry.](../figures/pca_population_structure.svg)
+
 ### Mixed Models
 
 Mixed models include a random effect that captures genetic relatedness:
@@ -313,6 +323,8 @@ Common thresholds:
 - Exome-wide or array-specific studies may use a threshold based on the number of effective tests.
 - Plant GWAS may use Bonferroni, FDR, permutation, or LD-aware thresholds depending on marker density and design.
 
+![Multiple testing schematic. Original synthetic figure showing why one-test p-value intuition fails when many SNPs are tested.](../figures/multiple_testing.svg)
+
 Teach this principle:
 
 ```text
@@ -349,6 +361,8 @@ Inflation can reflect confounding, but in highly polygenic traits it can also re
 ## 10. Imputation
 
 Imputation predicts untyped genotypes using observed genotypes and a reference panel. It increases genomic coverage and helps harmonize datasets across genotyping platforms.
+
+![Genotype imputation flow. Original schematic showing observed genotypes, reference haplotypes, and imputed dosage data.](../figures/imputation_flow.svg)
 
 Typical steps:
 
@@ -389,6 +403,8 @@ Fixed-effect meta-analysis estimates one shared effect. Random-effect meta-analy
 ## 12. From Locus to Biology
 
 A GWAS hit is a starting point.
+
+![Regional association plot. Original synthetic locus view showing a lead SNP, LD-colored nearby variants, and a gene track.](../figures/regional_locus_plot.svg)
 
 Post-GWAS interpretation can include:
 
@@ -493,4 +509,3 @@ study question
 ```
 
 Weakness at any step weakens the final claim.
-
